@@ -1,1 +1,0 @@
-# citus-patroni-k8s
