@@ -36,11 +36,11 @@ Veriler, shard adı verilen parçalara ayrılarak worker düğümlerine dağıt�
 **Veri Dağıtımı Yöntemleri (Sharding Modelleri):**
 *   **Satır Bazlı Dağıtma:** Veriyi satır bazında dağıtır. Her satır, belirli bir kritere (örneğin kullanıcı ID'si) göre farklı bir shard'a atanır. Bu yöntem, büyük tabloları yatay olarak bölmek ve sorgu performansını artırmak için en yaygın kullanılan yöntemdir.
 
-    ![alt text](images/shard-by-row.svg)
+    ![alt text](images/shard-by-row.png)
 
 *   **Şema Bazlı Dağıtma:** Veriyi şema bazında dağıtır. Her şema (yani bir veritabanı içindeki tablolar kümesi) farklı bir parçada saklanır. Bu yöntem, çok müşterili (multi-tenant) uygulamalar için uygundur.
 
-    ![alt text](images/shard-by-schema.svg)
+    ![alt text](images/shard-by-schema.png)
 
 #### 2. Referans Tablolar (Reference Tables)
 Referans tablolar, küçük ve sık erişilen veriler için kullanılır. Her worker düğümünde tam bir kopyası bulunduğundan, sorgular ağ üzerinden başka bir düğüme erişmek zorunda kalmadan yerel olarak çalıştırılabilir.
