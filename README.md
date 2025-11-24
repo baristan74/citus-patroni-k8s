@@ -6,7 +6,7 @@ Bu yazıda, teorik karmaşadan uzaklaşarak, kendi bilgisayarımızda **Kind (Ku
 
 > **Not:** Bu rehberde kullanılan tüm kurulum dosyalarına (`citus_k8s.yaml`, `Dockerfile.citus`, `entrypoint.sh`, `kind-cluster.yaml`) aşağıdaki GitHub reposundan erişebilirsiniz:
 >
-> [GitHub Repo Linki Buraya Gelecek]
+> [GitHub Repo](https://github.com/baristan74/citus-patroni-k8s/tree/main)
 
 ---
 
